@@ -1,0 +1,96 @@
+
+/* DEFAULT-LAYOUT */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    max-width: 100%;
+    color: #FFF;
+    overflow-x: hidden;
+    font-family: "Oswald", Georgia, 'Times New Roman', Times, serif;
+    background:  url("http://combiboilersleeds.com/images/raining/raining-8.jpg") no-repeat center center fixed;
+    background-size: cover ;
+}
+
+.background {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    border-radius: 2px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.75);
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 4.5rem;
+    letter-spacing: 4px;
+    color: #FFF;
+    text-shadow: 3px 2px 5px #111;
+}
+
+p {
+    text-align: center;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    text-shadow: 3px 2px 4px #111;
+}
+
+.weather-status {
+    margin: 30px auto;
+}
+
+.row {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.content footer {
+    color: #DDD;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-shadow: 2px 1px 2px #111;
+}
+
+@keyframes author {
+    0% {color: #FFF;}
+    50% {color: #C4A;}
+    100% {color: #FFF;}
+}
+.content footer a {
+    animation-name: author;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+.temperature-unit {
+    color: #6AC;
+}
+
+.img-responesive {
+    display: inline-block;
+    width: 7rem;
+    animation-name: move;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes move {
+    0% {left: 0px;}
+    25% {left: 20px;}
+    75% {left: -30px;}
+    90% {left: 10px;}
+}
