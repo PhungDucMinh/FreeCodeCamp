@@ -1,0 +1,28 @@
+{
+  "name": "timestamp-service",
+  "version": "1.0.0",
+  "description": "Back End - Timestamp Microservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "timestamp"
+  ],
+  "author": "PhungDucMinh",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.12.2",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-prefer-object-spread": "^1.1.0",
+    "eslint-plugin-react": "^6.8.0"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.2.19"
+  },
+  "engines": {
+    "node": "v6.9.2"
+  }
+}
