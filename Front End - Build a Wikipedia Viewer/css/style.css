@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #BBB;
+}
+
+body {
+    max-width: 100%;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    color: #BBB;
+    background: #421;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover, cover;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    border: none;
+    height: 45px;
+    padding: 0;
+    margin: 5px 0;
+}
+
+.sm {
+    width: 5%;
+}
+
+.md {
+    width: 10%;
+}
+
+.row {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.center {
+    text-align: center;
+}
+
+input {
+    display: inline-block;
+    padding: 4px 5px;
+    width: 300px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+#search h4 {
+    margin-top: 20px;
+}
