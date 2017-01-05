@@ -1,0 +1,170 @@
+/* DEFAULT-LAYOUT */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+/* DEFAULT-COLOR */
+
+.background-color-default {
+    background: #189;
+}
+
+.background-color-white {
+    background: #FFF;
+}
+
+.color-default {
+    color: #189;
+}
+
+/* BUTTON-CLASS */
+
+.btn {
+    display: inline-block;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    border: none;
+    height: 45px;
+    padding: 0;
+    margin: 5px 0;
+}
+
+.md {
+    width: 20%;
+}
+
+.sm {
+    width: 10%;
+}
+
+.ghost {
+    background: transparent;
+    color: darkorange;
+    border: 1px solid darkorange;
+    transition: 0.2s ease;
+}
+
+.ghost:hover{
+    background: darkorange;
+    color: white;
+}
+
+.ghost:active{
+    opacity: 0.7;
+}
+
+.btn-default {
+    background: transparent;
+    background-color:  #189;
+    color: #FFF;
+    transition: 0.2s ease;
+}
+
+.btn-default:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+/* LAYOUT-CLASS */
+
+.row {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+/* LAYOUT */
+
+body {
+    max-width: 100%;
+    font-family: "Rotobo", Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.quote-container {
+    margin: 10% auto auto auto;
+    padding: 20px 40px;
+    width: 500px;
+    border-radius: 3px;
+    overflow: auto;
+}
+
+blockquote {
+    padding: 0;
+    font-size: 1.5em;
+    overflow: auto;
+}
+
+
+blockquote:before, :after {
+    display: inline-block;
+    font-size: 7rem;
+    height: 4rem;
+    font-family: Georgia,'Times New Roman',Times,serif;
+    overflow: hidden;
+}
+blockquote:before {
+    content: "\201C";
+}
+
+blockquote:after {
+    content: "\201D";
+    float: right;
+}
+
+blockquote footer {
+    margin: 1.5rem 0 0 1rem;
+    font-style: italic;
+    font-size: 1.3rem;
+    text-align: right;
+}
+
+blockquote > p {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.0rem;
+    font-style: italic;
+    padding: 0rem 0.5rem;
+}
+
+blockquote > p:hover, 
+blockquote footer:hover {
+    transition: 0.2s, ease;
+    opacity: 0.7;
+}
+
+/* Quote Line break */
+blockquote > p:after {
+    position:absolute;
+    left:0;
+    top: 100%;
+    content:'';
+    display: inline-block;
+    width: 20rem;
+    height: 0.4rem;
+    margin-top: 0.8rem;
+}
+
+#get-next-quote {
+    float: right;
+}
+
+.author {
+    text-align: center;
+    color: #FFF;
+    font-size: 0.8rem;
+}
+
+div > footer {
+    margin: 15px auto 10px auto;
+}
